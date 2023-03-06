@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Merienda', cursive;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
+}
+.container{
+    width: 1140px;
+    margin:  0 auto;
+}
+header{
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 30px;
+}
+.header__top{
+    display: flex;
+    align-items: flex-end;
+}
+.header__top ul{
+    display: flex;
+    column-gap: 40px;
+}
+.sec1{
+    background: url("image/desk-791178_1920 (3).png")center/cover no-repeat;
+    padding: 181px 0 200px;
+    text-align: center;
+}
+.sec1 h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 21px;
+}
+.line{
+    width: 60px;
+    height: 2px;
+    background: white;
+}
+.sec1__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 26px;
+    margin-bottom: 35px;
+}
+.sec1 p{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.sec1 button{
+    border: 1px solid white;
+    width: 120px;
+    height: 30px;
+    background: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+}
+.sec2{
+    text-align: center;
+    padding: 80px 0 101px;
+}
+.sec2 p{
+    width: 589px;
+
+}
+.sec2__text{
+    display: flex;
+    justify-content: center;
+}
+.sec2 img{
+    margin: 21px 0 45px;
+}
+.sec3{
+    background: url("image/paper-1074131_1920 (3).png")center/cover no-repeat;
+    padding: 80px 0 110px;
+    text-align: center;
+}
+.sec3__box{
+    display: flex;
+    justify-content: center;
+    column-gap: 71px;
+    margin-top: 39px;
+}
+.sec3__card{
+    padding: 22px;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.sec3__card img{
+    height: 134px;
+}
+.sec3__card p{
+    margin: 10px 0;
+}
+.sec3__card h4{
+    text-align: right;
+}
+footer{
+    text-align: center;
+    padding: 30px 0 21px;
+}
+.footer__top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer__top ul{
+    display: flex;
+    column-gap: 40px;
+}
